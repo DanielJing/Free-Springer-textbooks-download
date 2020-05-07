@@ -1,2 +1,2 @@
 # Free-Springer-textbooks-download
-Creat a folder named as "download"
+DO NOT forget to creat a folder named as "download"
