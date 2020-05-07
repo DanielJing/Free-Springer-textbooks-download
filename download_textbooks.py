@@ -8,4 +8,4 @@ for index, row in df.iterrows():
         r = requests.get(url, verify = True) 
         download_url = f"{r.url.replace('book','content/pdf')}.pdf"
         wget.download(download_url, f"./download/{file_name}.pdf") 
-        print(f"downloading {file_name}.pdf Complete ....")
+        print(f"downloading {file_name}.pdf Complete.")
